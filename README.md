@@ -107,10 +107,18 @@ Na aba ***Fabric Environments***:
 
 Após a iniciação do servidor **REST**, execute o *script* **read_data.py** para inserir registros dos *datasets* (situados no diretório **Datasets**) na rede ***Fabric***. É possível alterar o arquivo fonte dos registros na linha 13 do *script*, dentro do argumento do método **read_csv()**. Além disso, pode-se controlar a quantidade de registros inseridos na linha 18 do mesmo.
 
+## Execução do *benchmark* com **Hyperledger Caliper**
+
+Para a realização da avalição de *performance* da rede ***Fabric***, siga as instruções de [2].
+
 ## Simulação do experimento com The One
 
 - Altere os dados de entrada como dataset no arquivo **default_settings.txt**.
 - Todos os datasets avaliados estão no diretório **data** (bufalo_evaluation_otimized_, lobo_cinza_evaluation_otimized_, sabia_evaluation_otimized_ e tangara_evaluation_otimized_).
 - Execute o arquivo binário **one.bat**.
 - Após a execução da simulação, na pasta **reports** serão gerados os relatórios como de Entrega de Pacotes ou Estado da Mensagem.
+
+## Referências
+
+[2] Performance testing smart contracts developed within VS Code using Hyperledger Caliper. Disponível em: <https://developer.ibm.com/technologies/blockchain/tutorials/blockchain-performance-testing-smart-contracts-vscode-caliper/>
 
