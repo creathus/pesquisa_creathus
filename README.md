@@ -103,6 +103,10 @@ Na aba ***Fabric Environments***:
 
 **Obs.:** Os nomes dos parâmetros utilizados no exemplo podem ser modificados segundo a preferência do usuário.
 
+## Execução do script de inserção de dados
+
+Após a iniciação do servidor **REST**, execute o *script* **read_data.py** para inserir registros dos *datasets* (situados no diretório **Datasets**) na rede ***Fabric***. É possível alterar o arquivo fonte dos registros na linha 13 do *script*, dentro do argumento do método **read_csv()**. Além disso, pode-se controlar a quantidade de registros inseridos na linha 18 do mesmo.
+
 ## Simulação do experimento com The One
 
 - Altere os dados de entrada como dataset no arquivo **default_settings.txt**.
