@@ -5,7 +5,7 @@
 ## Pré-requisitos
 
 - ***Visual Studio Code* (versão ^1.55.0)**;
-- Extensão ***IBM Blockchain Platform*** para o ***Visual Studio Code*** (versão 1.0.40);
+- Extensão ***IBM Blockchain Platform*** para o ***Visual Studio Code*** [1] (versão 1.0.40);
 - ***Dokcer*** versão **v.17.06.2-ce** ou superior;
 
 ### Dependências opcionais
@@ -109,7 +109,7 @@ Após a iniciação do servidor **REST**, execute o *script* **read_data.py** pa
 
 ## Execução do *benchmark* com **Hyperledger Caliper**
 
-Para a realização da avalição de *performance* da rede ***Fabric***, siga as instruções de [2].
+Para a realização da avalição de *performance* da rede ***Fabric***, entre no diretório **Chaincode/caliper_workspace** e siga as instruções de [2]
 
 ## Simulação do experimento com The One
 
@@ -120,5 +120,7 @@ Para a realização da avalição de *performance* da rede ***Fabric***, siga as
 
 ## Referências
 
-[2] Performance testing smart contracts developed within VS Code using Hyperledger Caliper. Disponível em: <https://developer.ibm.com/technologies/blockchain/tutorials/blockchain-performance-testing-smart-contracts-vscode-caliper/>
+[1] IBM Blockchain Platform Extension for VS Code. Disponível em: <https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform>.
+
+[2] Performance testing smart contracts developed within VS Code using Hyperledger Caliper. Disponível em: <https://developer.ibm.com/technologies/blockchain/tutorials/blockchain-performance-testing-smart-contracts-vscode-caliper/>.
 
